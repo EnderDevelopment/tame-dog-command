@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "dogcommand",
+  "version": "${version}",
+  "name": "Dog Command",
+  "description": "Spawn any number of tamed, sitting dogs with a command.",
+  "authors": ["EnderDevelopment"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.dogcommand.DogCommandMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
